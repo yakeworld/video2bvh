@@ -1,5 +1,6 @@
 from .estimator_2d import Estimator2D
-from openpose import pyopenpose as op
+#from openpose import pyopenpose as op
+import pyopenpose as op
 
 
 class OpenPoseEstimator(Estimator2D):
